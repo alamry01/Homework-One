@@ -3,4 +3,13 @@
     height: 100px;
     background: #d4a76a;
     border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.chip {
+    position: absolute;
+    background: #5c3a21;
+    border-radius: 50%;
 }
