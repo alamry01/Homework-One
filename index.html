@@ -1,58 +1,71 @@
-<h1>Welcome to The Cookie Jar!🍪</h1>
-<p><strong>Things We offer:</strong> 
-
-<ul>
-    <li> Freshly baked cookies</li>
-    <li>Custom Cookie Orders</li>
-    <li>Hot & Cold drinks</li>
-</ul>
-</p>
-<br>
-<div>
-    <img src="images/cookies.webp" width="150" height="150">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>The Cookie Jar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to The Cookie Jar!🍪</h1>
+    <p><strong>Things We offer:</strong></p>
     
-    <img src="images/custom.jpg" width="150" height="150">
-
-    <img src="images/drinks.jpg" width="150" height="150">
-</div>
-<br>
-<form  method="post">
-<label for="name">your name goes here</label>
-<input type="name" placeholder="enter your name" >
-<br>
-<label for="name">your name goes here</label>
-<input type="name" placeholder="enter your name" >
-<br>
-<label for="email">your email goes here</label>
-<input type="email" placeholder="enter your email" >
-<br>
-<label for="number">your number goes here</label>
-<input type="number" placeholder="enter your number" >
-<br>
-<label for="text">feedback</label>
-<br>
-<textarea name="text" id="112" placeholder="enter your message"></textarea>
-<br>
-
-
-
-
-
-<select>
-    <option value="sudan">Sudan</option>
-    <option value="iran">Iran</option>
-    <option value="kuwait">Kuwait</option>
-    <option value="Australia">Australia</option>
-    <option value="iraq">Iraq</option>
-<option value = "Bahrain">Bahrain</option>
-
-</select>
-<br>
-<label for="file" > having an issue? </label>
-<input type="file" id="file">
-<br>
-<label for="date">enter your birthday</label>
-<input type="date" id="date">
-<br>
-<input type="submit" placeholder="submit" >
-</form>
+    <ul>
+        <li>Freshly baked cookies</li>
+        <li>Custom Cookie Orders</li>
+        <li>Hot & Cold drinks</li>
+    </ul>
+    
+    <div class="image-container">
+        <img src="images/cookies.jpg" width="150" height="150">
+        <img src="images/custom.jpg" width="150" height="150">
+        <img src="images/drinks.jpg" width="150" height="150">
+    </div>
+    
+    <div class="css-cookies">
+        
+        <div class="cookie">
+            <div class="cookie"> <div class="cookie"></div>
+            
+        </div>
+    </div>
+    
+    <form action="https://formsubmit.co/a20.alamry@gmail.com" method="post">
+        <label for="name">Your name goes here</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+        
+        <label for="email">Your email goes here</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        <br>
+        
+        <label for="number">Your number goes here</label>
+        <input type="number" id="number" placeholder="Enter your number">
+        <br>
+        
+        <label for="feedback">Feedback</label>
+        <br>
+        <textarea id="feedback" placeholder="Enter your message"></textarea>
+        <br>
+        
+        <select id="country">
+            <option value="sudan">Sudan</option>
+            <option value="iran">Iran</option>
+            <option value="kuwait">Kuwait</option>
+            <option value="Australia">Australia</option>
+            <option value="iraq">Iraq</option>
+            <option value="Bahrain">Bahrain</option>
+        </select>
+        <br>
+        
+        <label for="file">Having an issue?</label>
+        <input type="file" id="file">
+        <br>
+        
+        <label for="date">Enter your birthday</label>
+        <input type="date" id="date">
+        <br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
